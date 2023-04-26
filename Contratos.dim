@@ -1,0 +1,243 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9aeac5a0-7c5b-41ea-b4b2-a02504fd7bf3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Contratos</ID>
+  <Name>Contratos</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2361" scrolltop="-6191" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10213" y="13573" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="contratos" left="20" top="-4207" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5450" height="13335" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004a15000017340000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_contratos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2361</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6191</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-4207</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="16cea1b9-0420-4b88-b36f-f8eca9ee7601">
+    <DataSourceViewID>JARM</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="6ad01d0a-01b0-45c4-8e2b-2479d436236e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="d7501159-07a6-477e-838b-eda79ab06cb6">
+      <ID>Id Contrato</ID>
+      <Name>Id Contrato</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="431e265b-6677-48eb-8e80-c84ac44dbe3b">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="13eb1bc8-1361-4a1b-8739-426f58ec0891">
+            <TableID>dbo_contratos</TableID>
+            <ColumnID>id_contrato</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9a47226c-232e-46f5-bdc4-f2eb1f8cbd48">
+          <AttributeID>No De Contrato</AttributeID>
+          <Name>No De Contrato</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c821ba95-c9e2-41d0-b61a-b60658964d48">
+          <AttributeID>Clave Del Programa</AttributeID>
+          <Name>Clave Del Programa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7f349c20-a07e-43a9-9a5c-48ddb383cd74">
+          <AttributeID>Programa</AttributeID>
+          <Name>Programa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a9e018ff-4128-4ecf-8c7f-37fcef4b02ca">
+          <AttributeID>Programa Alterno</AttributeID>
+          <Name>Programa Alterno</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4c98393a-354a-4e75-91a5-1e90d53d9c27">
+          <AttributeID>Status Del Contrato</AttributeID>
+          <Name>Status Del Contrato</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7f5097d7-53e5-4a37-b3a2-60c45e2fe0eb">
+          <AttributeID>Año De Contrato</AttributeID>
+          <Name>Año De Contrato</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="83309786-81a3-4a5d-98c3-75258cf6a4c8">
+          <AttributeID>Mes De Contrato</AttributeID>
+          <Name>Mes De Contrato</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3d97944f-fb7f-49d0-ae1c-51e0d45b341c">
+      <ID>No De Contrato</ID>
+      <Name>No De Contrato</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5022c2b3-7301-4efc-abdf-309d5b9a5d50">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="52b3e472-4992-4227-958c-2b730f7d7d10">
+            <TableID>dbo_contratos</TableID>
+            <ColumnID>No._x0020_de_x0020_contrato</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="949d4cec-878e-4beb-a606-7d2acac13b4f">
+      <ID>Clave Del Programa</ID>
+      <Name>Clave Del Programa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="25b570ae-8250-4cfc-a8a2-8ad240309064">
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="03fca3aa-b8ed-4c19-af30-e8e068fe24cd">
+            <TableID>dbo_contratos</TableID>
+            <ColumnID>Clave_x0020_del_x0020_programa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="67550a61-6d24-47fe-804b-c1bbe5c37e12">
+      <ID>Programa</ID>
+      <Name>Programa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8164d1c3-6b26-4e23-8df2-1ea09d8133ca">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="242755cb-8adc-471d-9bc2-ca63cc50ea47">
+            <TableID>dbo_contratos</TableID>
+            <ColumnID>Programa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="66f1db8f-b178-4b91-8f62-07a73955e1e5">
+      <ID>Programa Alterno</ID>
+      <Name>Programa Alterno</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c1d623ec-4882-4fd4-b21b-415d50c14e8c">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b8ff030-797b-428e-9e07-af842de64ead">
+            <TableID>dbo_contratos</TableID>
+            <ColumnID>Programa_x0020_alterno</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1c1dca60-ded8-4489-b80f-f52a52d7036b">
+      <ID>Status Del Contrato</ID>
+      <Name>Status Del Contrato</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5728b90b-5793-46df-afc9-606587a9c74f">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="138918db-e59d-420b-b3cb-4e193ad66ae6">
+            <TableID>dbo_contratos</TableID>
+            <ColumnID>Status_x0020_del_x0020_contrato</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dc41ed3f-fee7-437f-9f37-a5ab9a7c9db0">
+      <ID>Año De Contrato</ID>
+      <Name>Año De Contrato</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1304eeef-0c89-4da1-94aa-613b240db448">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eb88cac6-de9e-4f36-a6a4-1ab27fd359fb">
+            <TableID>dbo_contratos</TableID>
+            <ColumnID>Año_x0020_de_x0020_contrato</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b5861740-463c-4fb6-832c-43d328f97aa6">
+      <ID>Mes De Contrato</ID>
+      <Name>Mes De Contrato</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f1023ff-e96e-47f7-b24a-5e98feb7a85f">
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c32bcb0-9a53-4ba9-8033-a543c7a3c48d">
+            <TableID>dbo_contratos</TableID>
+            <ColumnID>Mes_x0020_de_x0020_contrato</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

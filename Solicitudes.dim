@@ -1,0 +1,319 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bb778826-b2a5-4925-bc07-ad59f9d2f3f8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Solicitudes</ID>
+  <Name>Solicitudes</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2387" scrolltop="-19567" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10213" y="13573" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="solicitudes" left="-165" top="-19447" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5398" height="13176" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00001615000078330000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_solicitudes" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2387</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-19567</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-165</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-19447</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4ae28802-1d9e-4f0f-84d8-db1440ccbcb1">
+    <DataSourceViewID>JARM</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="a348f053-0534-4e0b-a773-6cfb0d9d16c2">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="34f86dca-4d3e-4d2c-8a7c-bcf84b427ad7">
+      <ID>Id Solicitud</ID>
+      <Name>Id Solicitud</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="80f12f4a-272a-4dec-bc5b-e3abd8a45353">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5c79f7e4-196d-4bea-b88d-061586a0ce46">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>id_solicitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="894451d0-12f2-4517-9c4d-5a66016098ee">
+          <AttributeID>Clave Estudiante</AttributeID>
+          <Name>Clave Estudiante</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="39bdf5bc-ae14-48fc-a528-b24a3656e9ef">
+          <AttributeID>Aplicacion Solicitud</AttributeID>
+          <Name>Aplicacion Solicitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="161c23b9-1b9e-4391-9e31-7b31c0028b46">
+          <AttributeID>Fecha Solicitud</AttributeID>
+          <Name>Fecha Solicitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e5a3ced0-1628-486a-910c-76690f1f15b6">
+          <AttributeID>Fecha Desicion</AttributeID>
+          <Name>Fecha Desicion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2e78328f-0552-4258-8ca4-ee398ca8bae5">
+          <AttributeID>Preferencia Solicitud</AttributeID>
+          <Name>Preferencia Solicitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6fccf731-9bd2-477b-9d1c-9dca3458acc2">
+          <AttributeID>Flag Registro Estudiantil</AttributeID>
+          <Name>Flag Registro Estudiantil</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0699a56c-8018-4bfa-9bc5-5b8fc11131ff">
+          <AttributeID>Status De Solicitud</AttributeID>
+          <Name>Status De Solicitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d19a3ea6-264d-41a7-b550-82089f251bd9">
+          <AttributeID>Programa</AttributeID>
+          <Name>Programa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cf488900-2714-4ab3-839a-b88dde3dd320">
+          <AttributeID>Programa Alterno</AttributeID>
+          <Name>Programa Alterno</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="83eaface-2038-41d9-8597-4d9dab2cbd78">
+          <AttributeID>Tipo De Admisión</AttributeID>
+          <Name>Tipo De Admisión</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e4e749fe-df8c-448c-9b6e-f67b4486c7a2">
+          <AttributeID>Decisión</AttributeID>
+          <Name>Decisión</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3fada6de-0f9c-4d4c-823b-e0c4cb9ae675">
+      <ID>Clave Estudiante</ID>
+      <Name>Clave Estudiante</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="37b173ea-8ab2-4cbb-97a1-b9bd02e350c2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="530520d5-339d-4fdb-ac0f-9d6da94fc6d0">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Clave_estudiante</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8258fa95-cce8-41aa-86d8-b3929d165ac5">
+      <ID>Aplicacion Solicitud</ID>
+      <Name>Aplicacion Solicitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e501692a-09a1-4a1b-af80-859914d9b272">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9cc94ff8-a869-4970-9193-559caaeb97f1">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Aplicacion_solicitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b23a217f-e6f5-41ba-b99d-381913a70ea6">
+      <ID>Fecha Solicitud</ID>
+      <Name>Fecha Solicitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b3d76cd-4bcf-400b-a859-70a2f9ea3c4b">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f098810-8efa-42b0-81d9-79c3aa65be2c">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>fecha_solicitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2d9fbb01-d7c7-434c-a6e0-9029d336e01c">
+      <ID>Fecha Desicion</ID>
+      <Name>Fecha Desicion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e0c15e7-79f6-4851-86b1-9350b7b41008">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f6486ae-9f45-40c5-b982-1e9952dd0005">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Fecha_desicion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="86a76749-e807-4fb2-8664-2f0c9b17a38a">
+      <ID>Preferencia Solicitud</ID>
+      <Name>Preferencia Solicitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8fae8198-3d87-41d4-9406-c49f98aa7e48">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7f807510-e235-4a71-9f85-a6c76f8359b1">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Preferencia_x0020_solicitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4880fd0b-c11e-43f1-9ac0-878ec82c9dc6">
+      <ID>Flag Registro Estudiantil</ID>
+      <Name>Flag Registro Estudiantil</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a697792a-14a4-4d7f-8156-3d9600ec0185">
+          <DataType>WChar</DataType>
+          <DataSize>3</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc3e40c8-5f25-42f9-b7dd-fbc652fa120a">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Flag_x0020_registro_x0020_estudiantil</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ec9009c5-9946-49fe-90af-92427054efa8">
+      <ID>Status De Solicitud</ID>
+      <Name>Status De Solicitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dd86f996-ec49-4b81-8015-b5d037febbae">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="00b9d71e-77e6-4ff8-b3b3-bd2874fd0318">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Status_x0020_de_x0020_solicitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5216e780-cfa9-4e2f-bffd-f4404534d401">
+      <ID>Programa</ID>
+      <Name>Programa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4df7069e-2911-4de8-9b92-46be83ada267">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="960adef6-ae3f-427f-a7f1-837504257f97">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Programa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3aa2be64-65e3-48d6-93d1-f2224b58eb58">
+      <ID>Programa Alterno</ID>
+      <Name>Programa Alterno</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="004c68b4-0cc4-4058-85de-b21d15f86e16">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3b6dceb6-be11-44d4-9089-652c71fdbb2e">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Programa_x0020_alterno</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a3ad0364-4d29-41c4-a2c8-e0c3182fae4e">
+      <ID>Tipo De Admisión</ID>
+      <Name>Tipo De Admisión</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="187f6f16-acd1-487f-872c-be2c4fae45fa">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94bbed05-67fd-40db-96c5-a3ea36fbc6a2">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Tipo_x0020_de_x0020_admisión</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a08302bf-95eb-4e10-b387-3008880dc34f">
+      <ID>Decisión</ID>
+      <Name>Decisión</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0f9add8c-e251-4706-916c-82a6cc641b27">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="77862a78-05e1-4978-bf1b-9ab115227a20">
+            <TableID>dbo_solicitudes</TableID>
+            <ColumnID>Decisión</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
